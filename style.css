@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;  
+    background-color: rgb(14, 13, 13);  
+}
+
+.amigos{
+    width: 70%;
+    height: 100vh;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.amigos h2{
+    color: rgb(235, 162, 5);
+    display: flex;
+    margin: 5px;;
+    margin-top: -40px;
+    font-size: 40px;
+}
+
+.migo{
+    margin: 20px;
+    background-color: rgb(49, 49, 51);
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding: 2px;   
+    border-radius: 10px;
+    border: 1px solid rgb(235, 162, 5);
+}
+
+.migo:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 6px rgba(3, 180, 250, 0.623);
+    cursor: pointer;
+}
+
+.migo p{
+    color: rgb(235, 162, 5);
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-bottom: -20px;
+}
+
+.migo picture{    
+    width: 190px;
+    height: 200px;
+    position: relative;
+    bottom: 35px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.migo img{
+    width: 190px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.um-quatro{
+    display: flex;
+    margin: 10px;
+}
+
+.cinco-oito{
+    display: flex;
+    margin: 10px;
+}
+
+.display{    
+    width: 50%;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+
+.display2{
+    background-color: rgb(49, 49, 51);
+    width: 550px;
+    height: 700px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;    
+    border: 2px solid rgb(235, 162, 5);
+    box-shadow: 0px 0px 20px 10px rgba(3, 180, 250, 0.623);
+    display: none;
+}
+
+.display2 picture{       
+    width: 400px;
+    height: 400px;       
+    border-radius: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 75px;
+}
+
+.display2 img{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.nome{  
+    color: rgb(235, 162, 5);  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.profissao{    
+    color: rgb(235, 162, 5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.hobby{    
+    color: rgb(235, 162, 5);
+    display: flex;    
+    justify-content: center;
+    height: 130px; 
+    font-size: 18px;
+    margin: 10px;
+}
+
+.nome p{
+    margin: 5px;    
+    font-size: 20px;
+}
+
+.profissao p{
+    margin: 5px;   
+    font-size: 20px; 
+}
+
+.hobby p{
+    margin-top: 2px;
+    margin-left: 5px;  
+    font-size: 20px;      
+}
